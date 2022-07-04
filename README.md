@@ -1,23 +1,23 @@
 # Company App
 
  ----------------------------------------------------------------------------
- -                        Prestige Medical Ltd.                             -
- -                       East House, Duttons Way                            -
- -                            Blackburn,                                    -
- -                           Lancashire,                                    -
- -                               UK.                                        -
- -                             BB1 2QR                                      -
- -                                                                          -
- -       (c) Copyright 2016, Prestige Medical Ltd., Blackburn, UK.          -
- -                                                                          -
+                         Prestige Medical Ltd.                             
+                        East House, Duttons Way                            
+                             Blackburn,                                    
+                            Lancashire,                                    
+                                UK.                                        
+                              BB1 2QR                                      
+                                                                           
+        (c) Copyright 2016, Prestige Medical Ltd., Blackburn, UK.          
+                                                                           
  ----------------------------------------------------------------------------
- - Packet Communication Interface
- - Main Header
+  Packet Communication Interface
+  Main Header
  ----------------------------------------------------------------------------
- -
- - Author:    Joshua Longhurst MSc BEng
- - Created:   April 2022
- -
+ 
+  Author:    Joshua Longhurst MSc BEng
+  Created:   April 2022
+ 
  ----------------------------------------------------------------------------
 
 ## Table of contents
