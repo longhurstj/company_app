@@ -1,0 +1,114 @@
+
+
+Padding(
+            padding: const EdgeInsets.only(left: 10.0, right: 10.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                SizedBox(
+                  height: 200,
+                  width: 112,
+                  child: Card(
+                    child: InkWell(
+                      splashColor: Colors.red.withAlpha(30),
+                      onTap: () {
+                        debugPrint('Devices tapped.');
+                      },
+                      child: const ListTile(
+                        leading: Icon(
+                          Icons.devices,
+                        ),
+                        title: Text('Devices'),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 200,
+                  width: 112,
+                  child: Card(
+                    child: InkWell(
+                      splashColor: Colors.red.withAlpha(30),
+                      onTap: () {
+                        debugPrint('Data tapped.');
+                      },
+                      child: const ListTile(
+                        leading: Icon(Icons.sd_storage),
+                        title: Text('Data'),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 200,
+                  width: 112,
+                  child: Card(
+                    child: InkWell(
+                      splashColor: Colors.red.withAlpha(30),
+                      onTap: () {
+                        debugPrint('Service tapped.');
+                      },
+                      child: const ListTile(
+                        leading: Icon(Icons.engineering),
+                        title: Text('Service'),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            )),
+        Padding(
+            padding: const EdgeInsets.only(left: 10.0, right: 10.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                SizedBox(
+                  height: 200,
+                  width: 112,
+                  child: Card(
+                    child: InkWell(
+                      splashColor: Colors.red.withAlpha(30),
+                      onTap: () {
+                        debugPrint('Community tapped.');
+                      },
+                      child: const ListTile(
+                        leading: Icon(Icons.insert_comment),
+                        title: Text('Community'),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 200,
+                  width: 112,
+                  child: Card(
+                    child: InkWell(
+                      splashColor: Colors.red.withAlpha(30),
+                      onTap: () {
+                        debugPrint('Social Media tapped.');
+                      },
+                      child: const ListTile(
+                        leading: Icon(Icons.share),
+                        title: Text('Social Media'),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 200,
+                  width: 112,
+                  child: Card(
+                    child: InkWell(
+                      splashColor: Colors.red.withAlpha(30),
+                      onTap: () {
+                        debugPrint('Assistance tapped.');
+                      },
+                      child: const ListTile(
+                        leading: Icon(Icons.call),
+                        title: Text('Assistance'),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            )),
